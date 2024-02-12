@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-import netlify from '@astrojs/netlify';
 
 export default {
-  output: 'server',
-  adapter: netlify(),
+ 
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {},
