@@ -1,0 +1,49 @@
+---
+import Card2 from "./Card2.astro"
+import '@fontsource/yellowtail';
+
+---
+
+<div class="flex    flex-col text-center">
+       <div class="">
+        <h4 class="text-4xl text-secondary">Categories</h4>
+
+        <p class="text-primary text-3xl font-bold">OUR PRODUCTS</p>
+       </div>
+
+       
+       <div class="flex flex-wrap  p-6   ">
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2  Badge="Vegetables" Foto="/Photo(1).png" Titulo="Calabrese Broccoli" Precio="250"   />
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Fresh" Foto="/Photo (2).png" Titulo="Fresh banana" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Millets" Foto="/Photo (3).png" Titulo="White nuts" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Vegetables" Foto="/image 13.png" Titulo="Vegan red tomatoe" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Health" Foto="/image 14.png" Titulo="Mung bean" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Nuts" Foto="/Photo (4).png" Titulo="Brown Hazelnut" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Fresh" Foto="/Photo (5).png" Titulo="Eggs" Precio="250"/>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 flex justify-center">
+            <Card2 Badge="Fresh" Foto="/Photo (6).png" Titulo="Zelco Suji Elaichi Rusk" Precio="250"/>
+        </div>
+    </div>
+    
+
+</div>
+
+<style>
+    h4{
+        font-family: "yellowtail", cursive;
+    }
+</style>

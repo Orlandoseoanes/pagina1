@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Cardindex from '../components/Cardindex.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro'
+import Hero2 from '../components/Hero2.astro';
+import Menu from '../components/Menu.astro';
+import Hero3 from '../components/Hero3.astro';
+import Card3 from '../components/Card3.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Welcome to Astro.">
+		<Navbar/>
+		<Hero/>
+
+
+		<div class="flex flex-wrap mb-4"> 
+			<Cardindex   imagenes='/Image (2).png' minititulo='Natural!!' descripcion='Get Garden Fresh Fruits' clasesPersonalizada1='text-white' clasesPersonalizada2=text-white />
+
+			<Cardindex imagenes='/Image (3).png' minititulo='Offer!!' descripcion='Get 10% off  on Vegetables' clasesPersonalizada1='text-secondary' clasesPersonalizada2=text-primary />
+		</div>
+
+		<Hero2/>
+
+		<Menu/>
+
+		<Hero3/>
+
+		<Card3/>
+
+		<Footer/>
+
+		
+
+
+
+</Layout>
+
+<style>
+	
+</style>

@@ -1,0 +1,37 @@
+---
+ interface Props {
+    imagenes: string,
+    descripcion:string,
+    minititulo:string,
+    clasesPersonalizada1: string,
+    clasesPersonalizada2: string
+
+}
+
+const {imagenes,descripcion,minititulo,clasesPersonalizada1,clasesPersonalizada2} =Astro.props
+import '@fontsource/yellowtail';
+
+---
+
+
+<div class="relative max-w-xl mx-auto mt-20">
+    <img class="h-64 w-full object-cover rounded-md" src={imagenes} alt="Random image">
+    <div class="absolute inset-0 rounded-md"></div>
+    <div class="absolute inset-0 flex flex-col items-start justify-center p-6">
+            <div class={clasesPersonalizada1} >
+                <h1>{minititulo}</h1>
+
+            </div>
+            <br>
+            <div class={clasesPersonalizada2}>
+                <h2 class=" text-3xl font-bold">{descripcion}</h2>
+
+            </div>
+        </div>
+</div>
+<style>
+    h1{
+        font-size: x-large;
+        font-family: "yellowtail", cursive; 
+    }
+</style>
