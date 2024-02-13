@@ -4,7 +4,7 @@ import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
 import 'cssesc';
-import { $ as $$Navbar, a as $$Footer, b as $$Layout } from './index_qpNkSuiu.mjs';
+import { $ as $$Navbar, a as $$Footer, b as $$Layout } from './index_xYjRg4mg.mjs';
 
 const $$Astro$2 = createAstro();
 const $$Shopbanner = createComponent(async ($$result, $$props, $$slots) => {
