@@ -13,8 +13,8 @@ const {Badge,Foto,Titulo,Precio} =Astro.props;
 <div class="card w-4/5 bg-base-100 shadow-xl p-4 mt-2">
   <div class="badge badge-primary">{Badge}</div>
 
-  <figure class="px-10 pt-10">
-    <img src={Foto} alt="Shoes" class="rounded-xl" />
+  <figure class="px-5 pt-10 h-3/5 rounded-xl">
+    <img src={Foto} alt="Shoes" class="rounded-xl object-contain h-full w-full" />
   </figure>
 
   <div class="card-body ">

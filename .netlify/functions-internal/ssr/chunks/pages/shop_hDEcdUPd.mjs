@@ -4,14 +4,14 @@ import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
 import 'cssesc';
-import { $ as $$Navbar, a as $$Footer, b as $$Layout } from './index_zOQ1nd_O.mjs';
+import { $ as $$Navbar, a as $$Footer, b as $$Layout } from './index_zGpFqtNz.mjs';
 
 const $$Astro$2 = createAstro();
 const $$Shopbanner = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Shopbanner;
   return renderTemplate`${maybeRenderHead()}<div class="hero min-h-96" style="background-image: url(&quot;/Image (5).png&quot;);"> <div class="hero-overlay bg-opacity-60"></div> <div class="hero-content text-center text-neutral-content"> <div class="max-w-md"> <h1 class="mb-5 text-5xl font-bold text-primary">Shop single</h1> </div> </div> </div>`;
-}, "C:/Users/oaseo/OneDrive/Escritorio/Nueva carpeta/pagina1/src/components/Shopbanner.astro", void 0);
+}, "C:/Users/Jailer/Desktop/pagina1/src/components/Shopbanner.astro", void 0);
 
 const $$Astro$1 = createAstro();
 const $$Carrito = createComponent(async ($$result, $$props, $$slots) => {
@@ -27,16 +27,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                       ut erat vitae nisi ultrices placerat non eget velit. Integer ornare mi sed ipsum lacinia, non
                       sagittis mauris blandit. Morbi fermentum libero vel nisl suscipit, nec tincidunt mi consectetur.
 </p> </div> </div> </div> </div> </div>`;
-}, "C:/Users/oaseo/OneDrive/Escritorio/Nueva carpeta/pagina1/src/components/Carrito.astro", void 0);
+}, "C:/Users/Jailer/Desktop/pagina1/src/components/Carrito.astro", void 0);
 
 const $$Astro = createAstro();
 const $$Shop = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Shop;
   return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "shop" }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Navbar", $$Navbar, {})} ${renderComponent($$result2, "Shopbanner", $$Shopbanner, {})} ${renderComponent($$result2, "Carrito", $$Carrito, {})} ${renderComponent($$result2, "Footer", $$Footer, {})} ` })}`;
-}, "C:/Users/oaseo/OneDrive/Escritorio/Nueva carpeta/pagina1/src/pages/shop.astro", void 0);
+}, "C:/Users/Jailer/Desktop/pagina1/src/pages/shop.astro", void 0);
 
-const $$file = "C:/Users/oaseo/OneDrive/Escritorio/Nueva carpeta/pagina1/src/pages/shop.astro";
+const $$file = "C:/Users/Jailer/Desktop/pagina1/src/pages/shop.astro";
 const $$url = "/shop";
 
 export { $$Shop as default, $$file as file, $$url as url };
